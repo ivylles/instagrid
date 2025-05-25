@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prévia do Feed</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: sans-serif;
+      background: #fff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .grid img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Prévia do Feed</h1>
+  <div class="grid">
+    <img src="https://via.placeholder.com/300" alt="Post 1" />
+    <img src="https://via.placeholder.com/300" alt="Post 2" />
+    <img src="https://via.placeholder.com/300" alt="Post 3" />
+    <img src="https://via.placeholder.com/300" alt="Post 4" />
+    <img src="https://via.placeholder.com/300" alt="Post 5" />
+    <img src="https://via.placeholder.com/300" alt="Post 6" />
+    <img src="https://via.placeholder.com/300" alt="Post 7" />
+    <img src="https://via.placeholder.com/300" alt="Post 8" />
+    <img src="https://via.placeholder.com/300" alt="Post 9" />
+  </div>
+</body>
+</html>
